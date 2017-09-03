@@ -2,7 +2,10 @@
 
 Start your Android career here. Build device trees and port custom ROMs and recoveries to new devices easily with this template.
 
-Study the templates included to understand how these files work, and then extract a boot or recovery image from your device, and run the mkvendor.sh script to get started! There is information everywhere on the Internet on how to set up Android build environments, e.g. on the XDA-Developers forum.
+Study the templates included to understand the file scheme, and then extract a boot or recovery image from your device, and run the mkvendor.sh script to make a preliminary tree. Here is a good explanation on [StackOverflow](https://stackoverflow.com/a/11353248) on what these files do. 
+
+You will need to add extra info (e.g. TARGET_BOARD_PLATFORM in [BoardConfig.mk](BoardConfig.mk.template) before it is usable.
+______
 
 Last of all, have fun! Do some wonderful things with Android :) Who knows where it'll lead (only you!)
 
