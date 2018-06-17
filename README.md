@@ -7,13 +7,10 @@ Study the templates included to understand the file scheme, and then extract a b
 You will need to add extra info (e.g. TARGET_BOARD_PLATFORM in [BoardConfig.mk](BoardConfig.mk.template)) before it is usable.
 ______
 
-Last of all, have fun! Do some wonderful things with Android :) Who knows where it'll lead (only you!)
+Last of all, have fun! Do some wonderful things with Android :)
 
+Make sure to **cross-reference information** shown in tutorials you find with other device trees in the [LineageOS repositories](https://github.com/LineageOS?utf8=✓&q=android_device), **making sure not to add deprecated properties** or the like into your files, as the tutorials may be old.
 
-Personally, I started [here](https://developerswork.github.io/works/GUIDES/AndrodDeviceTree/#). Be warned that the tutorial linked is somewhat old, so when using it, be sure to **cross-reference information** shown in the tutorial with other device trees in the [LineageOS repositories](https://github.com/LineageOS?utf8=✓&q=android_device), **making sure not to add deprecated properties** or anything like that into your device files. The tutorial is perfectly usable, though.
-
-Maybe we can encourage [@DevelopersWork](https://github.com/DevelopersWork) to update his tutorial :wink:
-
-You can build [TWRP](https://twrp.me/) (custom recovery) with your device trees, as well. The official compilation tutorial can be found [here](https://forum.xda-developers.com/showthread.php?t=1943625) (tutorial by [@Dees-Troy](https://github.com/Dees-Troy) on XDA).
+You can build [TWRP](https://twrp.me/) (custom recovery) with your device trees. The official compilation tutorial can be found [here](https://forum.xda-developers.com/showthread.php?t=1943625) (tutorial by [@Dees-Troy](https://github.com/Dees-Troy) on XDA).
 
 ###### DISCLAIMER: This is all provided as-is. I am not responsible for any problems occurring upon use of the data provided or content referenced to in this repository.
